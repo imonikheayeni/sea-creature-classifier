@@ -1,0 +1,15 @@
+# Data and model artifacts (do not commit these to your portfolio repo)
+data/
+outputs/*.pt
+outputs/history.json
+
+# Keep the result figures so they show on GitHub
+!outputs/*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
